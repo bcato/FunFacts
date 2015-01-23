@@ -13,6 +13,8 @@
 		80C8331D1A71CD1200CC065D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C8331C1A71CD1200CC065D /* Images.xcassets */; };
 		80C833201A71CD1200CC065D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C8331E1A71CD1200CC065D /* LaunchScreen.xib */; };
 		80C8332C1A71CD1200CC065D /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C8332B1A71CD1200CC065D /* FunFactsTests.swift */; };
+		80C833361A71D32200CC065D /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C833351A71D32200CC065D /* FactBook.swift */; };
+		80C833381A71E02700CC065D /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C833371A71E02700CC065D /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		80C833251A71CD1200CC065D /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C8332A1A71CD1200CC065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80C8332B1A71CD1200CC065D /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		80C833351A71D32200CC065D /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		80C833371A71E02700CC065D /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				80C833151A71CD1200CC065D /* AppDelegate.swift */,
+				80C833351A71D32200CC065D /* FactBook.swift */,
 				80C833171A71CD1200CC065D /* ViewController.swift */,
 				80C833191A71CD1200CC065D /* Main.storyboard */,
 				80C8331C1A71CD1200CC065D /* Images.xcassets */,
 				80C8331E1A71CD1200CC065D /* LaunchScreen.xib */,
 				80C833131A71CD1200CC065D /* Supporting Files */,
+				80C833371A71E02700CC065D /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80C833361A71D32200CC065D /* FactBook.swift in Sources */,
 				80C833181A71CD1200CC065D /* ViewController.swift in Sources */,
 				80C833161A71CD1200CC065D /* AppDelegate.swift in Sources */,
+				80C833381A71E02700CC065D /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
